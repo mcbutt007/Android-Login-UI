@@ -13,10 +13,10 @@
         android:contentDescription="@string/vegetables_frame_wooden_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/background_login"
         tools:ignore="ImageContrastCheck" />
 
@@ -29,7 +29,6 @@
         android:hint="@string/username"
         android:textColorHint="#A7A7A7"
         app:boxStrokeColor="#EAEAEE"
-        app:layout_constraintBottom_toTopOf="@+id/txtPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/app_title">
@@ -81,24 +80,22 @@
         android:textColor="#0D47A1"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
-        app:layout_constraintVertical_bias="0.138"
+        app:layout_constraintTop_toBottomOf="@+id/forget_password"
         tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/no_account"
         android:layout_width="139dp"
         android:layout_height="15dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="@string/don_t_have_account"
         android:textColor="#757575"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintHorizontal_bias="0.856"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Login"
         tools:ignore="TextContrastCheck" />
@@ -107,16 +104,15 @@
         android:id="@+id/new_account"
         android:layout_width="135dp"
         android:layout_height="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/create_a_new_account"
         android:textColor="#00838F"
         android:textSize="12sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/no_account"
-        app:layout_constraintVertical_bias="0.052"
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -145,9 +141,8 @@
         android:layout_marginTop="6dp"
         android:text="@string/forgot_password"
         android:textColor="#00838F"
-        app:layout_constraintBottom_toTopOf="@+id/Login"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintHorizontal_bias="0.797"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword"
         tools:ignore="TextContrastCheck" />
